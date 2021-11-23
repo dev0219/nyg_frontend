@@ -1,0 +1,23 @@
+.mc-dashboard {
+  .mc-location > div > button {
+    background-color: #fff !important;
+    color: #000 !important;
+    border-color: darkcyan;
+    font-weight: 500;
+
+    &:focus {
+      background-color: darkcyan !important;
+      color: #fff !important;
+      border-color: red !important;
+    }
+  }
+
+  .mc-order-buttons {
+    background-color: #fff;
+    color: #000 !important;
+    border-color: darkcyan;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 3px;
+  }
+}
